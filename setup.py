@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 setup(
     name='pygments-style-algforopt',
     description='Pygments style for Algorithms for Optimization.',
-    long_description=open('README.rst').read(),
+    long_description=open('README.md').read(),
     keywords='pygments algforopt style',
     packages=find_packages(),
     install_requires=['pygments>=2.2'],
