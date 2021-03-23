@@ -4,6 +4,12 @@ Pygments style used in the textbook [**Algorithms for Optimization**](http://mit
 
 ## Install
 
+You can use PIP:
+
+    $ pip install --upgrade git+https://github.com/sisl/pygments-style-algforopt#egg=pygments_style_algforopt
+
+Alternatively, you can run these commands:
+
     $ git clone https://github.com/sisl/pygments-style-algforopt
     $ cd pygments-style-algforopt
     $ (sudo) python setup.py install
